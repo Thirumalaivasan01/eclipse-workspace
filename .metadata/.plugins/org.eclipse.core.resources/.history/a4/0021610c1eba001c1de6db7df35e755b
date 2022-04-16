@@ -1,0 +1,49 @@
+package co.te.mylibrary.dao;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import org.springframework.beans.factory.support.BeanDefinitionBuilder;
+import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.te.mylibrary.config.MyConfig;
+import com.te.mylibrary.dto.Actor;
+import com.te.mylibrary.dto.Director;
+import com.te.mylibrary.dto.Movie;
+import com.te.mylibrary.dto.MovieCast;
+
+public class MyDao {
+	public void getSave(String actorName, String actorGender, String role, String directorName, String mobileNumber,
+			String movieTitle, String language, int year, int rating) {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("pu-sql-01");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction = entityManager.getTransaction();
+
+		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MyConfig.class);
+		Object actor = applicationContext.getBean("actor");
+		// Object director = applicationContext.getBean("director");
+		DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
+		BeanDefinitionBuilder actorBean = BeanDefinitionBuilder.rootBeanDefinition(Actor.class)
+				.addPropertyValue("actorName", actorName).addPropertyValue("actorGender", actorGender);
+		BeanDefinitionBuilder directorBean = BeanDefinitionBuilder.rootBeanDefinition(Director.class)
+				.addPropertyValue("directorName", directorName).addPropertyValue("directorPhone", mobileNumber);
+		BeanDefinitionBuilder movieBean = BeanDefinitionBuilder.rootBeanDefinition(Movie.class)
+				.addPropertyValue("movieTitle", movieTitle).addPropertyValue("movieLanguage", language)
+				.addPropertyValue("movieYear", year);
+		BeanDefinitionBuilder movieCastBean = BeanDefinitionBuilder.rootBeanDefinition(MovieCast.class)
+				.addPropertyValue("role", role);
+		BeanDefinitionBuilder movieRatingBean = BeanDefinitionBuilder.rootBeanDefinition(MovieRating.class)
+				.addPropertyValue("reviewStars", rating);
+
+		entityTransaction.begin();
+		entityManager.persist(actor);
+		entityManager.persist(director);
+		entityTransaction.commit();
+
+	}
+
+}

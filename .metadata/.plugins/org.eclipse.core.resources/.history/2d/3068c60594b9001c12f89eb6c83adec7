@@ -1,0 +1,96 @@
+package com.te.mylibrary.controller;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.te.mylibrary.dto.Actor;
+import com.te.mylibrary.dto.Director;
+import com.te.mylibrary.dto.Movie;
+import com.te.mylibrary.dto.MovieCast;
+import com.te.mylibrary.dto.MovieRating;
+
+public class MyController {
+public static void main(String[] args) {
+	public static void createRecord() {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("pu-sql-01");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction = entityManager.getTransaction();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Below Details: \n");
+		String actorName, actorGender;
+		Actor actor = new Actor();
+		System.out.println("Enter Actor Name: ");
+		actorName = sc.nextLine();
+		actor.setActorName(actorName);
+		System.out.println("Enter actor Gender: ");
+		actorGender = sc.nextLine();
+		actor.setActorGender(actorGender);
+
+		MovieCast cast = new MovieCast();
+		System.out.println("Enter the actor Role: ");
+		String role = sc.nextLine();
+		cast.setRole(role);
+
+		actor.setCast(cast);
+		cast.setActor(actor);
+
+		// ============================//
+
+		Director director = new Director();
+		System.out.println("Enter director name: ");
+		String directorName = sc.nextLine();
+		director.setDirectorName(directorName);
+		System.out.println("Enter director Mobile number: ");
+		String mobileNumber = sc.nextLine();
+		director.setDirectorPhone(mobileNumber);
+
+		ArrayList<Movie> movieList = new ArrayList<Movie>();
+		System.out.println("Enter the movie details for director: ");
+		Movie movie1 = new Movie();
+		System.out.println("Enter movie title: ");
+		String title = sc.nextLine();
+		System.out.println("Enter the movie Language: ");
+		String language = sc.nextLine();
+		movie1.setMovieLanguage(language);
+		movie1.setMovieTitle(title);
+		System.out.println("Enter the movie Year: ");
+		int year = sc.nextInt();
+		sc.nextLine();
+		movie1.setMovieYear(year);
+		movieList.add(movie1);
+		movie1.setDirector(director);
+		movieList.add(movie1);
+
+		director.setMovieList(movieList);
+
+		// ====================================//
+
+		ArrayList<MovieCast> castList = new ArrayList<MovieCast>();
+		castList.add(cast);
+		movie1.setCastList(castList);
+		cast.setMovie(movie1);
+
+		// ======================================//
+
+		MovieRating movieRating = new MovieRating();
+		System.out.println("Enter the rating star for the movie: ");
+		int rating = sc.nextInt();
+		movieRating.setReviewStars(rating);
+		movieRating.setMovie(movie1);
+		movie1.setMovieRating(movieRating);
+
+		entityTransaction.begin();
+		entityManager.persist(actor);
+		entityManager.persist(director);
+
+		entityTransaction.commit();
+
+	}
+
+}
+}

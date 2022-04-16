@@ -1,0 +1,22 @@
+package com.te.learn.collectionframework;
+
+import java.util.LinkedList;
+
+public class ApplicationLL {
+public static void main(String[] args) {
+		LinkedList linkedList=new LinkedList();
+		linkedList.add(new Student(05,"Name05",30));
+		linkedList.add(new Student(06,"Name06",26));
+		linkedList.add(new Student(07,"Name07",30));
+		linkedList.add(new Student(08,"Name08",26));
+		
+		System.out.println(linkedList);
+		
+		for(int i=0;i<linkedList.size();i++) {
+			System.out.println(linkedList.get(i));
+			
+		}
+		
+		
+}
+}

@@ -1,0 +1,17 @@
+package com.te.jackson.beans;
+
+import java.util.Date;
+import java.util.Map;
+
+public class Student {
+	private int sId;
+	private String sName;
+	private int sAge;
+	private String sFatherName;
+	private String sMotherName;
+	private long sPhoneNumber;
+	private Date sDOB;
+	private Map<String, Integer> sMarks;
+	private Address address;
+
+}

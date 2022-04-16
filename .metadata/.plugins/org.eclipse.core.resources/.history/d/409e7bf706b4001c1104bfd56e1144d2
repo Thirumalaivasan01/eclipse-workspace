@@ -1,0 +1,6 @@
+package com.te.spring.core.one.config;
+
+public class Peacock {
+	@Bean
+	public Peacp
+}

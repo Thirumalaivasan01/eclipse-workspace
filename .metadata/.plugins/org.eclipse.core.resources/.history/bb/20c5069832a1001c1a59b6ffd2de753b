@@ -1,0 +1,8 @@
+package com.te.learn.oops.relationship;
+
+public class App19 {
+	public static void main(String[] args) {
+		Human address = new Human("Name01", 22, 123, 78);
+		System.out.println(address);
+	}
+}

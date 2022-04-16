@@ -1,0 +1,25 @@
+package com.te.assignment.bean;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "movie_cast_table")
+public class MovieCast {
+	@Column(name = "actor_id")
+	private Actor actorId;
+
+	@Column(name = "movie_id")
+	private Movie movieId;
+
+	@Column(name = "role")
+	private String role;
+}

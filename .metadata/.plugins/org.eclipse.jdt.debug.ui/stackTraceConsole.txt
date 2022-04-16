@@ -1,0 +1,23 @@
+<student>
+    <sAge>29</sAge>
+    <sId>1</sId>
+    <sMarks>
+        <entry>
+            <key>Maths</key>
+            <value>40</value>
+        </entry>
+        <entry>
+            <key>English</key>
+            <value>35</value>
+        </entry>
+        <entry>
+            <key>Science</key>
+            <value>80</value>
+        </entry>
+        <entry>
+            <key>Social Science</key>
+            <value>70</value>
+        </entry>
+    </sMarks>
+    <sName>Name01</sName>
+</student>

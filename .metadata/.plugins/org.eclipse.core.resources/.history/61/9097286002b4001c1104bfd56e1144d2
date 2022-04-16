@@ -1,0 +1,5 @@
+package com.te.spring.core.one.beans;
+
+public class Peacock implements Creature {
+
+}

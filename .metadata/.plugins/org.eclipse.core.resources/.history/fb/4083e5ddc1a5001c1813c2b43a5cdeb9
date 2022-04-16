@@ -1,0 +1,19 @@
+package com.te.learn.collectionframework.Map;
+
+import java.util.HashMap;
+
+public class ApplicationHM {
+	public static void main(String[] args) {
+		HashMap<Integer,String> hashMap= new HashMap<Integer,String>();
+		hashMap.put(1, "A");
+		hashMap.put(2, "c");
+		hashMap.put(3, "f");
+		hashMap.put(4, "h");
+		hashMap.put(5, "j");
+		
+		for (hashMap.entrySet(). : args) {
+			
+		}
+		
+	}
+}

@@ -1,0 +1,19 @@
+package com.te.mylibrary.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.assignment.bean.Actor;
+
+@Configuration
+public class MyConfig {
+	@Bean(name="actor")
+	public Actor getActorObj() {
+		Actor actor=new Actor();
+		actor.setActorName("vikram");
+		actor.setActorGender("male");
+		actor.setCast(cast);
+	}
+	
+	
+}

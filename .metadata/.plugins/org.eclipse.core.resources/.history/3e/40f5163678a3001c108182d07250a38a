@@ -1,0 +1,16 @@
+package com.te.learn.oops.abstraction;
+
+public class B extends A {
+	public int a;
+
+	public B(int a) {
+		super();
+		this.a = a;
+	}
+
+	public B() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,7 @@
+127.0.0.1 - - [12/Apr/2022:22:40:47 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Apr/2022:22:40:50 +0530] "GET /assignment-calculator/ HTTP/1.1" 200 538
+127.0.0.1 - - [12/Apr/2022:22:40:51 +0530] "POST /assignment-calculator/register.jsp HTTP/1.1" 200 752
+127.0.0.1 - - [12/Apr/2022:22:44:56 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [12/Apr/2022:22:44:57 +0530] "GET /assignment-calculator/ HTTP/1.1" 200 538
+127.0.0.1 - - [12/Apr/2022:22:45:01 +0530] "POST /assignment-calculator/register.jsp HTTP/1.1" 200 732
+127.0.0.1 - - [12/Apr/2022:22:45:16 +0530] "POST /assignment-calculator/login.jsp HTTP/1.1" 200 614

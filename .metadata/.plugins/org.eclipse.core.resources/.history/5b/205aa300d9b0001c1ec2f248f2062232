@@ -1,0 +1,16 @@
+package com.te.designpattern;
+
+public class Square implements ShapeFactory {
+	private String name = "Square";
+
+	public Square(String name) {
+		super();
+		this.name = name;
+	}
+
+	@Override
+	public Square createObject() {
+		return new Square(name);
+	}
+
+}

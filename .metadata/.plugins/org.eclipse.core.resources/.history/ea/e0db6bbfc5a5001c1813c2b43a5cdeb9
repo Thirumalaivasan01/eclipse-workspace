@@ -1,0 +1,21 @@
+package com.te.learn.collectionframework.Map;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class ApplicationTM {
+	public static void main(String[] args) {
+
+		TreeMap<Integer, Student> treeMap = new TreeMap<Integer, Student>();
+
+		treeMap.put(1, new Student(1, "A", 22));
+		treeMap.put(2, new Student(3, "W", 22));
+		treeMap.put(5, new Student(10, "Z", 22));
+		treeMap.put(9, new Student(16, "K", 22));
+
+		for (Map.Entry<Integer, Student> entry : treeMap.entrySet()) {
+
+		}
+
+	}
+}

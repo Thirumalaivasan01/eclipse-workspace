@@ -1,0 +1,8 @@
+package com.te.learn.oops.String;
+
+public class String {
+public static void main(StringExamples[] args) {
+	StringExamples s="Hello";
+	
+}
+}

@@ -1,0 +1,29 @@
+package exam;
+
+public class ex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 * int pp=8,qq=8,rr=9; pp=pp^rr; if((pp^rr^10)<(7+pp+qq)) pp=12&qq;
+		 * System.out.println(pp+qq+rr);
+		 */
+		/*
+		 * int a=8,b=3,c=5; if((c&5)<a && (2&b)<a) { b=(c+c)+a;
+		 * 
+		 * } System.out.println(a+b+c);
+		 */
+
+		int p = 8, q = 6, r = 4;
+		for(r=4;r<=7;r++) {
+			if((q-r)<(r+q))
+			{
+				p=(1+9)+r;
+				q=(r+r)+r;
+			}
+			p=q+r;
+		}
+		System.out.println(p + q );
+	}
+
+}

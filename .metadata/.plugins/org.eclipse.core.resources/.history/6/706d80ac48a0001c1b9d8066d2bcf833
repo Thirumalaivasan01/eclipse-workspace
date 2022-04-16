@@ -1,0 +1,49 @@
+package com.te.learn;
+
+public class Human {
+	private String humanName;
+	private int humanAge;
+	private int humanHeight;
+	private double humanWeight;
+
+	public String getHumanName() {
+		return humanName;
+	}
+
+	public void setHumanName(String humanName) {
+		this.humanName = humanName;
+	}
+
+	public int getHumanAge() {
+		return humanAge;
+	}
+
+	public void setHumanAge(int humanAge) {
+		this.humanAge = humanAge;
+	}
+
+	public int getHumanHeight() {
+		return humanHeight;
+	}
+
+	public void setHumanHeight(int humanHeight) {
+		this.humanHeight = humanHeight;
+	}
+
+	public double getHumanWeight() {
+		return humanWeight;
+	}
+
+	public void setHumanWeight(double humanWeight) {
+		this.humanWeight = humanWeight;
+	}
+
+	public Human(String humanName, int humanAge, int humanHeight, double humanWeight) {
+		super();
+		this.humanName = humanName;
+		this.humanAge = humanAge;
+		this.humanHeight = humanHeight;
+		this.humanWeight = humanWeight;
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.te.jaxb.dto;
+
+public class Address {
+	private int aId;
+	private String aLine01;
+	private String aLine02;
+}

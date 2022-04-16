@@ -1,0 +1,21 @@
+package com.te.jackson;
+
+import java.io.IOException;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.te.jackson.beans.Student;
+
+/**
+ * Hello world!
+ *
+ */
+public class App4 {
+	public static void main(String[] args) throws IOException {
+		System.out.println("Hello World!");
+		
+		ObjectMapper mapper = new ObjectMapper();
+		Student student = mapper.reader().readValue(jsonString, Student.class);
+		System.out.println("Json data: " + student);
+	}
+}

@@ -1,0 +1,25 @@
+package com.te.spring.core.one.beans;
+
+public class Earth {
+	private double planetRadius;
+	private double waterOnPlanetPercentage;
+
+	private Creature creature;
+
+	public double getPlanetRadius() {
+		return planetRadius;
+	}
+
+	public void setPlanetRadius(double planetRadius) {
+		this.planetRadius = planetRadius;
+	}
+
+	public Creature getCreature() {
+		return creature;
+	}
+
+	public void setCreature(Creature creature) {
+		this.creature = creature;
+	}
+
+}

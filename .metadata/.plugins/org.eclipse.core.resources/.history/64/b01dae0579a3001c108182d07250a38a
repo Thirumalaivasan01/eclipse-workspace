@@ -1,0 +1,16 @@
+package com.te.learn.oops.abstraction;
+
+public abstract class A {
+	static {
+		System.out.println("static initializer of A class is executed");
+	}
+	{
+		System.out.println("non static initializer of A class is executed");
+	}
+
+	public A() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.te.spring.core.one.beans;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Earth {
+	private double planetRadius;
+	private double waterOnPlanetPercentage;
+	
+	@Autowired
+	private Creature creature;
+
+
+	public double getPlanetRadius() {
+		return planetRadius;
+	}
+
+
+	public void setPlanetRadius(double planetRadius) {
+		this.planetRadius = planetRadius;
+	}
+
+
+	public double getWaterOnPlanetPercentage() {
+		return waterOnPlanetPercentage;
+	}
+
+
+	public void setWaterOnPlanetPercentage(double waterOnPlanetPercentage) {
+		this.waterOnPlanetPercentage = waterOnPlanetPercentage;
+	}
+	
+	
+}

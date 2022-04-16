@@ -1,0 +1,16 @@
+package com.te.designpattern.singleton;
+
+public class Singleton {
+	private static Singleton object;
+
+	private Singleton() {
+
+	}
+
+	public static Singleton createObject() {
+		if (object == null) {
+			object = new Singleton();
+		}
+		return object;
+	}
+}

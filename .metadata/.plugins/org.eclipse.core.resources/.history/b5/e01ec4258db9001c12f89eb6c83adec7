@@ -1,0 +1,78 @@
+package com.te.mylibrary.config;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.mylibrary.dto.Actor;
+import com.te.mylibrary.dto.Director;
+import com.te.mylibrary.dto.Movie;
+import com.te.mylibrary.dto.MovieCast;
+import com.te.mylibrary.dto.MovieRating;
+
+@Configuration
+public class MyConfig {
+	@Bean(name = "actor")
+	public Actor getActorObj() {
+		Actor actor = new Actor();
+		actor.setActorName("vikram");
+		actor.setActorGender("male");
+
+		return actor;
+	}
+
+	@Bean(name = "director")
+	public Director getDirectorObj() {
+		Director director = new Director();
+		director.setDirectorName("bala");
+		director.setDirectorPhone("9838872389");
+
+		return director;
+	}
+
+	@Bean(name = "movie")
+	public Movie getMovieObj() {
+		Movie movie = new Movie();
+		movie.setDirector(getDirectorObj());
+		movie.setMovieLanguage("tamil");
+		movie.setMovieRating(getMovieRatingObj());
+		movie.setMovieTitle("pithamagan");
+		movie.setMovieYear(2002);
+		return movie;
+	}
+
+	@Bean(name = "movieCast")
+	public MovieCast getMovieCastObj() {
+		MovieCast movieCast = new MovieCast();
+		movieCast.setActor(getActorObj());
+		movieCast.setRole("Hero");
+		movieCast.setMovie(getMovieObj());
+		return movieCast;
+
+	}
+
+	@Bean(name = "movieRating")
+	public MovieRating getMovieRatingObj() {
+		MovieRating movieRating = new MovieRating();
+		movieRating.setMovie(getMovieObj());
+		movieRating.setReviewStars(3);
+		return movieRating;
+	}
+
+	@Bean
+	public List<MoiveCast> getCastList(){
+		List<MovieCast> castList=new ArrayList<MovieCast>();
+		MovieCast movieCast1=new MovieCast();
+		movieCast1.set
+		castList.add();
+		return castList;
+	}
+
+	@Bean(name="MovieList")
+	public List<Movies> getMovieList(){
+		Moive movie1=
+	}
+
+}

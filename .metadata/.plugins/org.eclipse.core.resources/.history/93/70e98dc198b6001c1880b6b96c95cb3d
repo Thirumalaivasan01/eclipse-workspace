@@ -1,0 +1,17 @@
+package com.te.assignment.bean;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "movie_cast_table")
+public class MovieCast {
+
+}

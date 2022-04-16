@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;hibernate_one/src/main/java/com.te.hibernate.hibernate_one.bean&apos;&#x0A;- Original project: &apos;hibernate_two&apos;&#x0A;- Destination element: &apos;hibernate_one/src/main/java/com.te.hibernate.hibernate_one.bean&apos;&#x0A;- Original elements:&#x0A;     com.te.hibernate.hibernate_two.dto.Student.java&#x0A;     com.te.hibernate.hibernate_two.dto.Address.java" description="Copy compilation units" destination="=hibernate_one/src\/main\/java&lt;com.te.hibernate.hibernate_one.bean" element1="/src\/main\/java&lt;com.te.hibernate.hibernate_two.dto{Student.java" element2="/src\/main\/java&lt;com.te.hibernate.hibernate_two.dto{Address.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1648543485582" units="2" version="1.0"/>
+</session>

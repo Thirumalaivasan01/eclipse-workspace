@@ -1,0 +1,15 @@
+package com.te.learn.oops.relationship;
+
+public class Child extends Parent {
+	private int a;
+
+	public Child(int a) {
+		this();
+		this.a = a;
+	}
+
+	public Child() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+}

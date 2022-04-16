@@ -1,0 +1,17 @@
+package com.te.spring.core.one.beans;
+
+public class Peacock implements Creature {
+
+	@Override
+	public String creatureName() {
+		System.out.println("Peacock");
+		return null;
+	}
+
+	@Override
+	public String creatureType() {
+		System.out.println("Bird");
+		return null;
+	}
+
+}

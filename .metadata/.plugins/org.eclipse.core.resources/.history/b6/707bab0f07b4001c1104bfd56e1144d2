@@ -1,0 +1,9 @@
+package com.te.spring.core.one.config;
+
+public class PeacockConfig {
+	@Bean
+	public Peacock getPeacockObj() {
+		Peacock peacock=new Peacock();
+		return peacock;
+	}
+}

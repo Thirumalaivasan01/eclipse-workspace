@@ -1,0 +1,16 @@
+package com.te.registration;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class RegistrationDao {
+	public static void main(String[] args) {
+
+	}
+
+	public String inser(User user) {
+		String result = null;
+	}
+}

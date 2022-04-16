@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;hibernate_six&apos;&#x0A;- Original project: &apos;hibernate_six&apos;&#x0A;- Original elements:&#x0A;     com.te.hibernate.hibernate_two.dto.Actor.java&#x0A;     com.te.hibernate.hibernate_two.dto.Director.java&#x0A;     com.te.hibernate.hibernate_two.dto.Movie.java" description="Delete elements" element1="/src\/main\/java&lt;com.te.hibernate.hibernate_two.dto{Director.java" element2="/src\/main\/java&lt;com.te.hibernate.hibernate_two.dto{Actor.java" element3="/src\/main\/java&lt;com.te.hibernate.hibernate_two.dto{Movie.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1648631056821" subPackages="false" version="1.0"/>
+</session>

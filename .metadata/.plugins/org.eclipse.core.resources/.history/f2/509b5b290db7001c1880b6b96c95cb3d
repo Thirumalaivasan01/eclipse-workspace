@@ -1,0 +1,28 @@
+package com.te.assignment;
+
+import com.te.assignment.bean.Actor;
+
+public class Show {
+	public static void showActor() {
+		Actor actor = new Actor();
+		actor.setActorGender("male");
+		actor.setActorName("surya");
+
+	}
+
+	public static void showDirector() {
+
+	}
+
+	public static void showMovie() {
+
+	}
+
+	public static void showMovieCast() {
+
+	}
+
+	public static void showMovieRating() {
+
+	}
+}

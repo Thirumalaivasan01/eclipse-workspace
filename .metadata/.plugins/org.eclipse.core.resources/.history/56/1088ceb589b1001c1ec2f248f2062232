@@ -1,0 +1,7 @@
+package com.te.spring.core.one.beans;
+
+public class Student {
+	private int studentId;
+	private String studentName;
+	private int studentAge;
+}

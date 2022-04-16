@@ -1,0 +1,18 @@
+package com.te.learn.oops.abstraction;
+
+public class B extends A {
+	public int a;
+
+	public B(int a) {
+		super();
+		System.out.println("B class constructor is executed");
+		this.a = a;
+	}
+
+	public B() {
+		super();
+		System.out.println("B class constructor is executed");
+		// TODO Auto-generated constructor stub
+	}
+
+}

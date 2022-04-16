@@ -1,0 +1,20 @@
+package com.te.jackson;
+
+import com.te.jackson.beans.Address;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        Address address=new Address();
+        address.setaId(1);
+        address.setaLine01("Line1");
+        address.setaLine02("Line2");
+        
+    }
+}

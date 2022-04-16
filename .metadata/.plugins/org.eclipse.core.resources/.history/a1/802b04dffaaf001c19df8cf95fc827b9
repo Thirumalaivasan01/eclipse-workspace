@@ -1,0 +1,17 @@
+package com.te.hibernate.hibernate_two.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(name="person")
+public class SmartPhone {
+
+}

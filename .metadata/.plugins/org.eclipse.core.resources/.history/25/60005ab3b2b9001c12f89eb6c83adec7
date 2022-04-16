@@ -1,0 +1,20 @@
+package com.te.mylibrary.service;
+
+public class Service {
+	boolean actorCheck=true,directorCheck=true,movieCheck=true;
+	public void checkActorData(String actorName, String actorGender, String role) {
+		if(actorName.length()<2)
+			actorCheck=false;
+		if(actorGender.equalsIgnoreCase("male")||actorGender.equalsIgnoreCase("female"))
+			actorCheck=false;
+		if(role.length()<3)
+			actorCheck=false;
+		
+	}
+	public void checkDirectorData(String directorName, String mobileNumber) {
+		
+	}
+	public void checkMovieData(String movieTitle,String language,int year,int rating) {
+		
+	}
+}

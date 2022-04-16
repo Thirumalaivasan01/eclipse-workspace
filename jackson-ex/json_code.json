@@ -1,0 +1,14 @@
+{
+  "s_id" : 1,
+  "s_name" : "Name",
+  "s_age" : 22,
+  "s_father_name" : "fatherName",
+  "s_mother_name" : "motherName",
+  "s_phone_number" : 9876654320,
+  "s_dob" : "02/08/3901",
+  "s_address" : {
+    "aId" : 1,
+    "aLine01" : "Line1",
+    "aLine02" : "Line2"
+  }
+}

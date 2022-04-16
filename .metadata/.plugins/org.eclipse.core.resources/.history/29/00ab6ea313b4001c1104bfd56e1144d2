@@ -1,0 +1,24 @@
+package com.te.spring.core.one.beans;
+
+public class HumanBeing implements Creature {
+	String name = "Hari";
+	String type = "Human";
+
+	@Override
+	public String creatureName() {
+		System.out.println("I'm Human");
+		return name;
+	}
+
+	@Override
+	public String creatureType() {
+		System.out.println("Human");
+		return type;
+	}
+
+	@Override
+	public String toString() {
+		return "HumanBeing [name=" + name + ", type=" + type + "]";
+	}
+
+}

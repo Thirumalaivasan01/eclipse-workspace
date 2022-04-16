@@ -1,0 +1,8 @@
+package com.te.spring.core.assignment2.dto;
+
+public class Food {
+	private String biriyani = "Biriyani";
+	private String idli = "Idli";
+	private String friedRice = "FriedRice";
+
+}

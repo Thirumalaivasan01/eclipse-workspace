@@ -1,0 +1,8 @@
+package com.te.learn.oops.relationship;
+
+public class Address {
+private int humanHouseNumber;
+private String street;
+private String city;
+
+}

@@ -1,0 +1,5 @@
+package com.te.jaxb.dto;
+
+public class Address {
+
+}

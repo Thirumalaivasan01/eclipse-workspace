@@ -1,0 +1,7 @@
+package com.te.learn.oops.polymorphism;
+
+public class App15 {
+public static void main(String[] args) {
+	
+}
+}

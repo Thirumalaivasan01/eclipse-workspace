@@ -1,0 +1,38 @@
+package com.te.spring.core.assignment2.dto;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Dinner {
+	@Autowired
+	private Food foods;
+	@Autowired
+	private Drinks drinks;
+
+	public Food getFoods() {
+		return foods;
+	}
+
+	public void setFoods(Food foods) {
+		this.foods = foods;
+	}
+
+	public Drinks getDrinks() {
+		return drinks;
+	}
+
+	public void setDrinks(Drinks drinks) {
+		this.drinks = drinks;
+	}
+
+	public Dinner() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Dinner(Food foods, Drinks drinks) {
+		super();
+		this.foods = foods;
+		this.drinks = drinks;
+	}
+
+}

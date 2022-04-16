@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.te.spring.spring.core.one&apos; to &apos;com.te.spring.core.one&apos;&#x0A;- Original project: &apos;spring.core.one&apos;&#x0A;- Original element: &apos;spring.core.one/src/main/java/com.te.spring.spring.core.one&apos;&#x0A;- Renamed element: &apos;spring.core.one/src/main/java/com.te.spring.core.one&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.te.spring.spring.core.one&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.te.spring.spring.core.one" name="com.te.spring.core.one" qualified="false" references="true" stamp="1648794118564" textual="false" version="1.0"/>
+</session>

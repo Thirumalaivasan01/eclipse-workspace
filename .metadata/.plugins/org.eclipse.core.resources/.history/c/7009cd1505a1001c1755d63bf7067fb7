@@ -1,0 +1,7 @@
+package com.te.learn.oops.relationship;
+
+public class App14 extends Child {
+public static void main(String[] args) {
+	Child ch=new Child(20);
+}
+}

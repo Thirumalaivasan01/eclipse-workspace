@@ -1,0 +1,37 @@
+package com.te.assignment;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.Query;
+
+import com.te.assignment.bean.Actor;
+
+public class Show {
+	public static void showActor() {
+		String str="from Actor";
+		Query query=App2.getEntityManger().createQuery(str);
+		List actorList=new ArrayList();
+		actorList=query.getResultList();
+		for (Object object : actorList) {
+			Actor actor=(Actor)object;
+		}
+
+	}
+
+	public static void showDirector() {
+
+	}
+
+	public static void showMovie() {
+
+	}
+
+	public static void showMovieCast() {
+
+	}
+
+	public static void showMovieRating() {
+
+	}
+}

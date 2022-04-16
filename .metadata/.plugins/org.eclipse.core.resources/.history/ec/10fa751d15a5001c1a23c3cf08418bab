@@ -1,0 +1,10 @@
+package com.te.learn.collectionframework.set;
+
+import java.util.LinkedHashSet;
+
+public class ApplicationLHS {
+	public static void main(String[] args) {
+		LinkedHashSet<Student> linkedHashSet = new LinkedHashSet<Student>();
+
+	}
+}

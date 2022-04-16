@@ -1,0 +1,44 @@
+package com.te.spring.core.assignment2.dto;
+
+public class Drinks {
+	private String milkShake;
+	private String cocaCola;
+	private String appleJuice;
+
+	
+	public String getMilkShake() {
+		return milkShake;
+	}
+
+
+	public void setMilkShake(String milkShake) {
+		this.milkShake = milkShake;
+	}
+
+
+	public String getCocaCola() {
+		return cocaCola;
+	}
+
+
+	public void setCocaCola(String cocaCola) {
+		this.cocaCola = cocaCola;
+	}
+
+
+	public String getAppleJuice() {
+		return appleJuice;
+	}
+
+
+	public void setAppleJuice(String appleJuice) {
+		this.appleJuice = appleJuice;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Drinks [milkShake=" + milkShake + ", cocaCola=" + cocaCola + ", appleJuice=" + appleJuice + "]";
+	}
+
+}

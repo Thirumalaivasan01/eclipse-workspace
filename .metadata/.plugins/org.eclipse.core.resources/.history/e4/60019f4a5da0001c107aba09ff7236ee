@@ -1,0 +1,7 @@
+package com.te.learn.oops.relationship;
+
+public class A {
+private int a;
+ptivate int b;
+
+}

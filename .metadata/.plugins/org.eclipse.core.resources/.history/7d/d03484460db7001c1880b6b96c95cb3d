@@ -1,0 +1,28 @@
+package com.te.assignment;
+
+import javax.persistence.Query;
+
+public class Show {
+	public static void showActor() {
+		String str="from Actor";
+		Query query=App2.getEntityManger().createQuery(str);
+		
+
+	}
+
+	public static void showDirector() {
+
+	}
+
+	public static void showMovie() {
+
+	}
+
+	public static void showMovieCast() {
+
+	}
+
+	public static void showMovieRating() {
+
+	}
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode&gt;=contactdetails/src\/main\/java&amp;lt;com.example.contactdetails{ContactdetailsApplication.java[ContactdetailsApplication&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=hibernate_two/src\/main\/java&amp;lt;com.te.hibernate.hibernate_two{App.java[App&lt;/infoNode&gt;&#x0A;&lt;infoNode&gt;=hibernate_six/\/home\/onebill\/.m2\/repository\/antlr\/antlr\/2.7.7\/antlr-2.7.7.jar&amp;lt;antlr.debug.misc(ASTFrame.class[ASTFrame&lt;/infoNode&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="352" key="DIALOG_X_ORIGIN"/>
+			<item value="38" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+</section>

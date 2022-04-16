@@ -1,0 +1,17 @@
+package com.te.spring.core.assignment3.dto;
+
+public class Cat implements Pet{
+
+	@Override
+	public String petType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String petName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

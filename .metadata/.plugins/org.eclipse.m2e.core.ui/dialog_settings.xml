@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/home/onebill/Desktop/contact"/>
+			<item value="/home/onebill/Desktop/ty/contactmanagementsystem"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/home/onebill/eclipse-workspace/spring.core.assignment2"/>
+			<item value="/home/onebill/eclipse-workspace/spring.core.eight"/>
+			<item value="/home/onebill/eclipse-workspace/Servers"/>
+			<item value="/home/onebill/eclipse-workspace/hibernate_five"/>
+			<item value="/home/onebill/eclipse-workspace/hibernate_two"/>
+			<item value="/home/onebill/eclipse-workspace/hibernate_one"/>
+			<item value="/home/onebill/eclipse-workspace/calculatorperform"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.te.spring.core.assignment3"/>
+			<item value="com.te.spring.core.assignment2"/>
+			<item value="com.te.springcore.assignment2"/>
+			<item value="com.te.jaxb"/>
+			<item value="com.te.spring.spring.core.one"/>
+			<item value="com.te.spring.sprint.core.one"/>
+			<item value="com.te.hibernate.three"/>
+			<item value="com.te.hibernate.hibernate_two"/>
+		</list>
+		<list key="groupId">
+			<item value="com.te.spring.core.assignment3"/>
+			<item value="com.te.spring.core.assignment2"/>
+			<item value="com.te.springcore.assignment2"/>
+			<item value="com.te.jaxb"/>
+			<item value="com.te.spring"/>
+			<item value="com.te.hibernate"/>
+		</list>
+		<list key="artifactId">
+			<item value="spring.core.assignment3"/>
+			<item value="spring.core.assignment2"/>
+			<item value="assignment2"/>
+			<item value="jaxb-ex"/>
+			<item value="spring.core.one"/>
+			<item value="sprint.core.one"/>
+			<item value="com.te.hibernate_three"/>
+			<item value="hibernate_two"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

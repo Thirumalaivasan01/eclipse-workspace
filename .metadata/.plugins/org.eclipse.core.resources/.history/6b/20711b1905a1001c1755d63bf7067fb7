@@ -1,0 +1,12 @@
+package com.te.learn.oops.relationship;
+
+public class Parent {
+static int b;
+public Parent(int s) {
+	this.b=s;
+}
+public Parent() {
+	super();
+	// TODO Auto-generated constructor stub
+}
+}

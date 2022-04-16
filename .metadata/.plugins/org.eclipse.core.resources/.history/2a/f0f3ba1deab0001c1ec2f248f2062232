@@ -1,0 +1,7 @@
+package com.te.designpattern.prototype;
+
+public class PrototypeDemo {
+	public static void main(String[] args) {
+		Employee emp = new Employee(1, "Hari", 20000, 24);
+	}
+}

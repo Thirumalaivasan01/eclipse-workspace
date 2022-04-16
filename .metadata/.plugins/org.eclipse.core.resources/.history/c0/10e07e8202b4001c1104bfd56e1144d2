@@ -1,0 +1,15 @@
+package com.te.spring.core.one.beans;
+
+public class GoldFish implements Creature {
+	@Override
+	public String creatureName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String creatureType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

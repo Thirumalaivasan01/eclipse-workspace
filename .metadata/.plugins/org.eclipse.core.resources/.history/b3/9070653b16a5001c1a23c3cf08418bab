@@ -1,0 +1,8 @@
+package com.te.learn.collectionframework.set;
+
+public class ApplicationTS {
+	public static void main(String[] args) {
+		TreeSet<Student> treeSet = new TreeSet<Student>();
+
+	}
+}

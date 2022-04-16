@@ -1,0 +1,8 @@
+package com.te.spring.core.one.beans;
+
+public class Address {
+	private int aId;
+	private String city;
+	private String state;
+
+}

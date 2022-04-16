@@ -1,0 +1,18 @@
+package com.te.hibernate.hibernate_two.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Table
+public class Person {
+
+	private int pId;
+	private String pName;
+
+}

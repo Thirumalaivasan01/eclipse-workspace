@@ -1,0 +1,26 @@
+package com.te.assignment;
+
+import com.te.assignment.bean.Actor;
+
+public class Create {
+	public static void createActor() {
+		Actor actor = new Actor();
+
+	}
+
+	public static void createDirector() {
+
+	}
+
+	public static void createMovie() {
+
+	}
+
+	public static void createMovieCast() {
+
+	}
+
+	public static void createMovieRating() {
+
+	}
+}

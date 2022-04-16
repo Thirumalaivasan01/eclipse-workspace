@@ -1,0 +1,51 @@
+package com.te.assignment;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+import com.te.assignment.bean.Actor;
+import com.te.assignment.bean.Director;
+import com.te.assignment.bean.Movie;
+import com.te.assignment.bean.MovieCast;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("pu-sql-01");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		EntityTransaction entityTransaction = entityManager.getTransaction();
+
+		Actor actor = new Actor();
+		actor.setActorName("vijay");
+		actor.setActorGender("male");
+
+		MovieCast cast = new MovieCast();
+		cast.setRole("police");
+
+		actor.setCast(cast);
+		cast.setActor(actor);
+		// ======================================================//
+
+		Director director = new Director();
+		director.setDirectorName("nelson");
+		director.setDirectorPhone("8734938390");
+
+		Movie movie = new Movie();
+		movie.setMovieLanguage("tamil");
+		movie.setMovieTitle("beast");
+		movie.setMovieYear(2022);
+
+		director.setMovie(movie);
+		movie.setDirector(director);
+
+		entityTransaction.begin();
+		entityManager.persist(actor);
+		entityTransaction.commit();
+	}
+}

@@ -1,0 +1,8 @@
+package com.te.registration;
+
+public class RegistrationDao {
+	private String dburl="jdbc:mysql://localhost:3306/userdb";
+	private String dbUserName="root";
+	private String dbPassword="root";
+	private String dbDriver="com.mysql.jdbc.Driver";
+}

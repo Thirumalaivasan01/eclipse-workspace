@@ -1,0 +1,100 @@
+package com.te.learn.Assessment.musicplayer;
+
+import java.util.ArrayList;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class EditSongs extends Home {
+	int songId;
+	String songTitle;
+	String artistName;
+	String albumName;
+	String songLocation;
+	String description;
+
+	public void addSong(ArrayList<MusicFiles> list, int newId) {
+		Scanner sc = new Scanner(System.in);
+
+		// System.out.println("Enter Song Id: ");
+		// songId = sc.nextInt();
+		// sc.nextLine();
+		// newId += 1;
+		System.out.println("Enter Song Title: ");
+		songTitle = sc.nextLine();
+		System.out.println("Enter Artist Name: ");
+		artistName = sc.nextLine();
+		System.out.println("Enter Album Name: ");
+		albumName = sc.nextLine();
+		System.out.println("Enter Song Location: ");
+		songLocation = sc.nextLine();
+		System.out.println("Enter Song Description: ");
+		description = sc.nextLine();
+		list.add(new MusicFiles(newId, songTitle, artistName, albumName, songLocation, description));
+		System.out.println("Song added to the PlayList!");
+		Home.showAllSongs(list);
+
+	}
+
+	public void editExistingSong(ArrayList<MusicFiles> list) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the song Id that you want to edit");
+		int id = sc.nextInt();
+		MusicFiles editingFile = new MusicFiles();
+
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i).getSongId() == id) {
+				System.out.println(list.get(i));
+				editingFile = list.get(i);
+			}
+
+		}
+
+		sc.nextLine();
+		System.out.println("Enter Song Title: ");
+		songTitle = sc.nextLine();
+		System.out.println("Enter Artist Name: ");
+		artistName = sc.nextLine();
+		System.out.println("Enter Album Name: ");
+		albumName = sc.nextLine();
+		System.out.println("Enter Song Location: ");
+		songLocation = sc.nextLine();
+		System.out.println("Enter Song Description: ");
+		description = sc.nextLine();
+		editingFile.setSongTitle(songTitle);
+		editingFile.setArtistName(artistName);
+		editingFile.setAlbumName(albumName);
+		editingFile.setSongLocation(songLocation);
+		editingFile.setDescription(description);
+		Home.showAllSongs(list);
+
+	}
+
+	public void deleteExistingSong(ArrayList<MusicFiles> list) {
+		int deleteId = 0;
+		boolean deleted = false;
+		try {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("Enter the songId that to be deleted: ");
+			deleteId = sc.nextInt();
+		} catch (InputMismatchException e) {
+			e.printStackTrace();
+			System.out.println("Please enter the Id of the song");
+		}
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i).getSongId() == deleteId) {
+				System.out.println(list.remove(i));
+				System.out.println("SongId: " + deleteId + " is Deleted...");
+				deleted = true;
+				break;
+			}
+
+		}
+		if (deleted == false) {
+			System.out.println("Id doesn't matched with any song");
+		} else {
+			Home.showAllSongs(list);
+		}
+
+	}
+
+}

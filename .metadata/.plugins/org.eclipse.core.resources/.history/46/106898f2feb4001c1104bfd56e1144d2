@@ -1,0 +1,17 @@
+package com.te.spring.core.assignment2.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.spring.core.assignment2.dto.CocaCola;
+import com.te.spring.core.assignment2.dto.Drinks;
+
+@Configuration
+public class DrinksConfig {
+
+	@Bean
+	public Drinks getCocaColaObj() {
+		CocaCola cocaCola = new CocaCola();
+		return cocaCola;
+	}
+}

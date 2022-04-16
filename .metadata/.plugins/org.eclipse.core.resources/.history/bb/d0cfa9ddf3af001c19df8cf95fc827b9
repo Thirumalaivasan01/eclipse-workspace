@@ -1,0 +1,29 @@
+package com.te.hibernate.hibernate_two;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+import com.te.hibernate.hibernate_two.dto.Student;
+
+public class JPQL05 {
+	public static void main(String[] args) {
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("PU01");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+
+		
+		String str1 = "delete from Student where sId=:id";
+
+		Query query1 = entityManager.createQuery(str1);
+		query1.setParameter("id", 2);
+		//Object single = query1.getSingleResult();
+		query1.executeUpdate();
+		//Student student = (Student) single;
+		//System.out.println(student);
+
+	}
+
+}

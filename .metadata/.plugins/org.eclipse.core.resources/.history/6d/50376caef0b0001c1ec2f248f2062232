@@ -1,0 +1,6 @@
+package com.te.designpattern.template;
+
+public class TemplateDemo {
+	Game game = new Cricket();
+
+}

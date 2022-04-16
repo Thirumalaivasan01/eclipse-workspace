@@ -1,0 +1,41 @@
+package com.te.spring.core.assignment3.config;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.spring.core.assignment3.dto.Child;
+import com.te.spring.core.assignment3.dto.Pet;
+
+@Configuration
+public class AllConfig {
+
+	@Bean
+	public Child getChildObj() {
+
+		HashMap<String, String> friends = new HashMap<String, String>();
+		friends.put("friend1", "male");
+		friends.put("friend2", "female");
+		friends.put("friend3", "male");
+
+		List<String> hobbies = new ArrayList<String>();
+		hobbies.add("Playing");
+		hobbies.add("Painting");
+		hobbies.add("Gardening");
+	
+		
+		
+		
+		Child child = new Child();
+		child.setAge(12);
+		child.setFriendsAndGender(friends);
+		child.setGender("male");
+		child.setHobbies(hobbies);
+		child.setName("ChildName");
+		child.setStandard("Seventh Standard");
+		return child;
+	}
+}

@@ -1,0 +1,25 @@
+package com.te.hibernate.hibernate_two.dto;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+@Table(name = "person")
+public class Pet {
+	private int petId;
+	private String petName;
+	
+	@ManyToMany(mappedBy = "pet")
+	private List<Person> personList;
+
+}

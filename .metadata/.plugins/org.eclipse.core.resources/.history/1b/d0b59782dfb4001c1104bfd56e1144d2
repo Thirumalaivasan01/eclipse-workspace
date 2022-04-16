@@ -1,0 +1,19 @@
+package com.te.spring.core.assignment3.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.spring.core.assignment3.dto.Child;
+
+@Configuration
+public class AllConfig {
+
+	@Bean
+	
+	public Child getChildObj() {
+		Child child = new Child();
+		child.setAge(12);
+		child.set
+		return child;
+	}
+}

@@ -1,0 +1,24 @@
+package com.te.spring.core.assignment3.config;
+
+import java.util.HashMap;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.spring.core.assignment3.dto.Child;
+
+@Configuration
+public class AllConfig {
+
+	@Bean
+	public Child getChildObj() {
+		HashMap<String, String> friends = new HashMap<String, String>();
+		friends.put("friend1", "male");
+		friends.put("friend2", "female");
+		friends.put("friend3", "male");
+		Child child = new Child();
+		child.setAge(12);
+		child.setFriendsAndGender(friends);
+		return child;
+	}
+}

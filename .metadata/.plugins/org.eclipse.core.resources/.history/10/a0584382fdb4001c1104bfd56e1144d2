@@ -1,0 +1,5 @@
+package com.te.spring.core.assignment2.dto;
+
+public class FriedRice implements Food{
+
+}

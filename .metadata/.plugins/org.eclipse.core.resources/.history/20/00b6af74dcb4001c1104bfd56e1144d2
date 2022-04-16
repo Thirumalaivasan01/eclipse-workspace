@@ -1,0 +1,5 @@
+package com.te.spring.core.assignment3.dto;
+
+public class Cow implements Pet{
+
+}

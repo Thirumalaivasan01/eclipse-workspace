@@ -1,0 +1,31 @@
+package com.te.assignment.bean;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "movie_cast_table")
+public class MovieCast {
+	@Column(name = "actor_id")
+	@OneToOne
+	private Actor actorId;
+
+	@ManyToOne(cascade=CascadeType.ALL)
+	@Column(name = "movie_id")
+	private Movie movieId;
+
+	@Column(name = "role")
+	private String role;
+}

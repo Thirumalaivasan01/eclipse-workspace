@@ -1,0 +1,19 @@
+package com.te.spring.core.assignment2.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.spring.core.assignment2.dto.Food;
+
+@Configuration
+public class FoodConfig {
+
+	@Bean
+	public Food getFoodObj() {
+		Food food = new Food();
+		food.setAppleJuice("AppleJuice");
+		food.setCocaCola("Cocacola");
+		food.setMilkShake("MilkShake");
+		return food;
+	}
+}

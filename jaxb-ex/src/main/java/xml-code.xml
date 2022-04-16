@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<collegeStudent>
+    <address>
+        <aId>1</aId>
+        <aLine01>Line1</aLine01>
+        <aLine02>Line2</aLine02>
+    </address>
+    <s_id>1</s_id>
+    <sMarks>
+        <entry>
+            <key>Maths</key>
+            <value>40</value>
+        </entry>
+        <entry>
+            <key>English</key>
+            <value>35</value>
+        </entry>
+        <entry>
+            <key>Science</key>
+            <value>80</value>
+        </entry>
+        <entry>
+            <key>Social Science</key>
+            <value>70</value>
+        </entry>
+    </sMarks>
+    <s_name>Name01</s_name>
+</collegeStudent>

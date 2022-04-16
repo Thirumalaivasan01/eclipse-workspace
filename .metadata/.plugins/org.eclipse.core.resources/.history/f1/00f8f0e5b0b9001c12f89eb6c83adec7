@@ -1,0 +1,14 @@
+package com.te.mylibrary.service;
+
+public class Service {
+
+	public void checkActorData(String actorName, String actorGender, String role) {
+
+	}
+	public void checkDirectorData(String directorName, String mobileNumber) {
+		
+	}
+	public void checkMovieData(String movieTitle,String language,String year,int rating) {
+		
+	}
+}

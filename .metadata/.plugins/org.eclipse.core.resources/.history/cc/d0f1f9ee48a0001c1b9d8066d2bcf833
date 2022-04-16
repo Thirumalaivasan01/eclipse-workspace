@@ -1,0 +1,11 @@
+package com.te.learn;
+
+public class App11 {
+public static void main(String[] args) {
+	Human human=new Human();
+	human.setHumanAge(-30);
+	human.setHumanHeight(89);
+	human.setHumanName(Name01);
+	human.setHumanWeight(20);
+}
+}

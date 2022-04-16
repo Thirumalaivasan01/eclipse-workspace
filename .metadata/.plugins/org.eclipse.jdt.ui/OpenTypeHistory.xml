@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(Collections.class[Collections" modifiers="33" timestamp="1619005569000"/>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(TreeSet.class[TreeSet" modifiers="33" timestamp="1619005569000"/>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.io(IOError.class[IOError" modifiers="33" timestamp="1619005569000"/>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(String.class[String" modifiers="49" timestamp="1619005569000"/>
+<typeInfo handle="=contactmanagementsystem/\/home\/onebill\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.32.Final\/hibernate-core-5.4.32.Final.jar&lt;org.hibernate.dialect(MySQL55Dialect.class[MySQL55Dialect" modifiers="1" timestamp="1648458375000"/>
+<typeInfo handle="=contact/\/home\/onebill\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.4.32.Final\/hibernate-core-5.4.32.Final.jar&lt;org.hibernate.dialect(MySQL57Dialect.class[MySQL57Dialect" modifiers="33" timestamp="1648458375000"/>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(Iterator.class[Iterator" modifiers="1537" timestamp="1619005569000"/>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util.stream(Stream.class[Stream" modifiers="1537" timestamp="1619005569000"/>
+<typeInfo handle="=Example1/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(System.class[System" modifiers="49" timestamp="1619005569000"/>
+</typeInfoHistroy>

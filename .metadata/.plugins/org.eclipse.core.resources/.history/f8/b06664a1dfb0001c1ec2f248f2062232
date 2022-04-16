@@ -1,0 +1,11 @@
+package com.te.designpattern.singleton;
+
+public class Test {
+	public static void main(String[] args) {
+		Singleton singleton = Singleton.createObject();
+		int tickets = singleton.getAvailableTickets();
+		tickets -= 1;
+		singleton.setAvailableTickets(ticket);
+	}
+
+}

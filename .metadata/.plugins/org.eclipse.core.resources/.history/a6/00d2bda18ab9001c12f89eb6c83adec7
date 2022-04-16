@@ -1,0 +1,49 @@
+package com.te.mylibrary.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.te.mylibrary.dto.Actor;
+import com.te.mylibrary.dto.Director;
+import com.te.mylibrary.dto.Movie;
+import com.te.mylibrary.dto.MovieCast;
+
+@Configuration
+public class MyConfig {
+	@Bean(name = "actor")
+	public Actor getActorObj() {
+		Actor actor = new Actor();
+		actor.setActorName("vikram");
+		actor.setActorGender("male");
+		actor.setCast(cast());
+	}
+
+	@Bean
+	public Director getDirectorObj() {
+		Director director = new Director();
+		director.setDirectorName("bala");
+		director.setDirectorPhone("9838872389");
+		director.setMovieList(movieList());
+	}
+
+	@Bean
+	public Movie getMovieObj() {
+		Movie movie = new Movie();
+		movie.setCastList(castList);
+		movie.setDirector(getDirectorObj());
+		movie.setMovieLanguage("tamil");
+		movie.setMovieRating(getMovieRatingObj());
+		movie.setMovieTitle("pithamagan");
+		movie.setMovieYear(2002);
+	}
+	@Bean
+	public MovieCast getMovieCastObj() {
+		MovieCast movieCast=new MovieCast();
+		movieCast.setActor(getActorObj());
+		movieCast.setRole("Hero");
+		movieCast.setMovie(getMovieObj());
+		
+	}
+	@Bean
+
+}

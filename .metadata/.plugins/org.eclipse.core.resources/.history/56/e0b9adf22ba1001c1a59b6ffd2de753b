@@ -1,0 +1,8 @@
+package com.te.learn.oops.relationship;
+
+public class App19 {
+public static void main(String[] args) {
+	Address address=new Address();
+	System.out.println(address);
+}
+}

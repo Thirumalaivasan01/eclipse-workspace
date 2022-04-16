@@ -1,0 +1,17 @@
+package com.te.spring.core.one.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Import;
+
+import com.te.spring.core.one.beans.Earth;
+import com.te.spring.core.one.beans.HumanBeing;
+
+@Import({GoldFishConfig.class,LionConfig.class,PeacockConfig.class,HumanBeing.class})
+public class AllConfig {
+
+@Bean
+public Earth getEarthObject() {
+	
+}
+
+}

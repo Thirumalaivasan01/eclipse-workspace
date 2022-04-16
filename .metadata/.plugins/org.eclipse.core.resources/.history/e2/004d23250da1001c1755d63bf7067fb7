@@ -1,0 +1,20 @@
+package com.te.learn.oops.polymorphism;
+
+ class Parent{
+	int a=10;
+	public void test() {
+		
+	}
+}
+class Child extends Parent{
+	int a=20;
+	public void test(int a) {
+		
+	}
+}
+public class App15 {
+public static void main(String[] args) {
+	Child child=new Child();
+	System.out.println(child.a);
+}
+}

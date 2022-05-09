@@ -54,8 +54,8 @@
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="completion_proposal_size">
-		<item value="153" key="contextSelector.size.y"/>
-		<item value="243" key="contextSelector.size.x"/>
+		<item value="141" key="contextSelector.size.y"/>
+		<item value="231" key="contextSelector.size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>

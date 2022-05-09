@@ -1,7 +1,0 @@
-package com.te.designpattern.prototype;
-
-public class PrototypeDemo {
-public static void main(String[] args) {
-	
-}
-}

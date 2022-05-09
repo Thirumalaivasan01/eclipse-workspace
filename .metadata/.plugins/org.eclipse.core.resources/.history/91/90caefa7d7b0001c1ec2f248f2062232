@@ -1,5 +1,0 @@
-package com.te.designpattern;
-
-public interface Shape {
-
-}

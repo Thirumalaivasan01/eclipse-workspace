@@ -1,9 +1,0 @@
-package com.te.spring.core.one.beans;
-
-public class Earth {
-	private double planetRadius;
-	private double waterOnPlanetPercentage;
-	
-	
-	private Creature creature;
-}

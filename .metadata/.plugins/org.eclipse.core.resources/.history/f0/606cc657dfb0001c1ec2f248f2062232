@@ -1,6 +1,0 @@
-package com.te.designpattern.singleton;
-
-public class Test {
- Singleton single=Singleton.createObject();
- 
-}

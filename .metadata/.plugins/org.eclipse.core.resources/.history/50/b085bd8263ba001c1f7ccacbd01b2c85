@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="assignment-calculator">
-        <property name="context-root" value="assignment-calculator"/>
-        <property name="java-output-path" value="/assignment-calculator/target/classes"/>
-    </wb-module>
-</project-modules>

@@ -1,5 +1,0 @@
-package com.te.spring.core.one.beans;
-
-public class HumanBeing implements Creature{
-
-}

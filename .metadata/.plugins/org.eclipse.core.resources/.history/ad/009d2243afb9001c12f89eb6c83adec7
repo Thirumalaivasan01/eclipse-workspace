@@ -1,9 +1,0 @@
-package com.te.mylibrary.service;
-
-public class Service {
-
-	public void checkData() {
-		
-	}
-	
-}

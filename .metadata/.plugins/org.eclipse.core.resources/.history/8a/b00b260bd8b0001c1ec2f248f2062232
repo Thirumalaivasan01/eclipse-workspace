@@ -1,6 +1,0 @@
-package com.te.designpattern;
-
-public interface Shape {
-
-	public abstract void objectName();
-}

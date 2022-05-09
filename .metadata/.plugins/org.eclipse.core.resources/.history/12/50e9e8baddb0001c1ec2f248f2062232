@@ -1,5 +1,0 @@
-package com.te.designpattern.factory;
-
-public class CreateShape {
-ShapeFactory factory=new ShapeFactory();(factory.showShape("circle")).createObject();
-}

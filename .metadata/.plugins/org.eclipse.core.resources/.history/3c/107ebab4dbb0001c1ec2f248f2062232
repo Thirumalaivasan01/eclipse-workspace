@@ -1,6 +1,0 @@
-package com.te.designpattern.factory;
-
-public interface ShapeFactory {
-
-	public abstract void createObject();
-}
